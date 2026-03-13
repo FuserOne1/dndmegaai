@@ -1,0 +1,28 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Игнорируем ВСЕ файлы кроме основных
+*
+
+# Разрешаем только нужное
+!src/
+!public/
+!.env.example
+!.gitignore
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+!index.html
+!README.md
+!AI_SETUP.md
+!CHEATSHEET.md
+!FAQ.md
+!ARCHITECTURE.md
+!GITHUB_GUIDE.md
